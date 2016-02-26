@@ -66,7 +66,7 @@ module Prelaunchr
     config.assets.initialize_on_precompile = false
     
     config.action_mailer.raise_delivery_errors = false
-    config.action_mailer.default_url_options = { :host => 'http://forgeapollo.herokuapp.com/' }
+    config.action_mailer.default_url_options = { :host => 'http://spruceshades.herokuapp.com/' }
     config.action_mailer.delivery_method = :smtp
     config.action_mailer.perform_deliveries = true
     config.action_mailer.raise_delivery_errors = true
@@ -78,7 +78,7 @@ module Prelaunchr
       :user_name => "happywithrails@gmail.com",
       :password  => "_fco-Q9lxMqIjxNDT2zAvQ", # SMTP password is any valid API key
       :authentication => 'plain', # Mandrill supports 'plain' or 'login'
-      :domain => 'http://forgeapollo.herokuapp.com/', # your domain to identify your server when connecting
+      :domain => 'http://spruceshades.herokuapp.com/', # your domain to identify your server when connecting
     }
 
    #config.assets.enabled = true
