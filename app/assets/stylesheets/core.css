@@ -47,7 +47,7 @@ html.home{
 	width: 100%;
 	height: 446px;
 	background: url(/assets/home/hero.jpg) center center no-repeat;
-	background-size: 1600px 446px;
+	background-size: 100% 446px;
 	overflow: hidden;
 	position: relative;
 	letter-spacing: .09em;
@@ -57,7 +57,7 @@ html.home{
 #home .hero .large{
 	font-weight: bold;
 	font-size: 40px;
-	color: #074E6F;
+	color: #000000;
 	text-transform: uppercase;
 	margin: 85px 0 0 136px;
 	position: relative;
@@ -96,7 +96,7 @@ html.home{
 #home .form-wrap .byline{
 	font-size: 15px;
 	text-transform: uppercase;
-	color: #074E6F;
+	color: #000;
 	text-align: center;
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -106,8 +106,8 @@ html.home{
 #home .form-wrap .email{
 	float: left;
 	font-size: 13px;
-	padding: 8px 0 8px 10px;
-	border: 1px solid #074E6F;
+	padding: 10px 0 8px 10px;
+	border: 1px solid #000;
 	width: 256px;
 	outline: none;
 	letter-spacing: 1px;
@@ -115,7 +115,7 @@ html.home{
 
 #home .form-wrap .submit{
 	width: 142px;
-	background: #074E6F;
+	background: #000;
 	float: left;
 	height: 37px;
 	line-height: 37px;
@@ -134,7 +134,7 @@ html.home{
 #home .form-wrap.ended .thanks{
 	text-transform: uppercase;
 	font-weight: 500;
-	color: #074e6f;
+	color: #000000;
 	text-align: center;
 	font-size: 22px;
 	letter-spacing: 1px;
@@ -162,7 +162,7 @@ html.home{
 }
 
 #home .form-wrap.ended .go-to a{
-	color: #074e6f;
+	color: #000000;
 	font-size: 19px;
 	font-weight:bold;
 	text-transform: uppercase;
@@ -190,7 +190,7 @@ html.home{
 #home .form-wrap.ended .thanks{
 	text-transform: uppercase;
 	font-weight: 500;
-	color: #074e6f;
+	color: #000000;
 	text-align: center;
 	font-size: 22px;
 	letter-spacing: 1px;
@@ -218,7 +218,7 @@ html.home{
 }
 
 #home .form-wrap.ended .go-to a{
-	color: #074e6f;
+	color: #000000;
 	font-size: 19px;
 	font-weight:bold;
 	text-transform: uppercase;
@@ -263,7 +263,7 @@ html.home{
 
 #refer .header{
 	height: 50px;
-	background: #074E6F;
+	background: #000000;
 	width: 100%;
 	overflow:hidden;
 	z-index: 1;
@@ -294,23 +294,25 @@ html.home{
 	margin-right: 14px;
 	letter-spacing: 1px;
 	background: url(/assets/refer/logo.png) 0 0 no-repeat;
-	background-size: 106px 19px;
+	background-size: 150px 19px;
 	height: 19px;
-	width: 106px;
+	width: 150px;
 	margin-top: 15px;
 }
 
 #refer .hero{
-	background: #F1F0EE;
+	/*background: #F1F0EE;*/
+	background: url(/assets/refer/mammoth.png) 0 0 no-repeat;
+	background-size: 100% 394px;
 	height: 391px;
 	overflow: hidden;
+	border-bottom: 2px solid black;
 }
 
 #refer .mammoth{
 	width: 612px;
 	height: 394px;
-	background: url(/assets/refer/mammoth.png) 0 0 no-repeat;
-	background-size: 610px 394px;
+
 	overflow: hidden;
 	margin-top: 15px;
 	float: left;
@@ -335,12 +337,12 @@ html.home{
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: .13em;
-	margin-right: 60px;
+	margin-right: 10px;
 }
 
 #refer .share-wrap .why{
 	font-size: 16px;
-	color: #555556;
+	color: 	#FFFFFF;
 	font-weight: bold;
 	margin-top: 42px;
 }
@@ -350,13 +352,13 @@ html.home{
 	line-height: 40px;
 	text-transform: uppercase;
 	font-weight: bold;
-	color: #074E6F;
+	color: 	#FFFFFF;
 	margin-top: 18px;
 	letter-spacing: .13em;
 }
 
 #refer .share-wrap .subtitle{
-	color: #565656;
+	color: 	#FFFFFF;
 	font-size: 14px;
 	text-transform: none;
 	margin-top: 15px;
@@ -418,7 +420,7 @@ html.home{
 #refer .prizes .callout{
 	text-align: center;
 	font-size: 16px;
-	color: #074E6F;
+	color: #000000;
 	font-weight: bold;
 	margin: 20px 0 0 0;
 	letter-spacing: 2px;
@@ -466,7 +468,7 @@ html.home{
 #refer .prizes .products li.title{
 	height: 100%;
 	text-transform: uppercase;
-	color: #074E6F;
+	color: #000000;
 	font-weight: 500;
 	font-size: 14px;
 	float: left;
@@ -487,7 +489,7 @@ html.home{
 
 #refer .prizes .products li.product{
 	height: 100%;
-	color: #074E6F;
+	color: #000000;
 	width: 125px;
 	margin-right: 129px;
 	float: left;
@@ -555,14 +557,14 @@ html.home{
 
 #refer .prizes .products li.product:hover .circle{
 	color: #FFF;
-	background: #074E6F;
-	border-color: #074E6F;
+	background: #000000;
+	border-color: #000000;
 }
 
 #refer .prizes .products li.product .tooltip{
 	height: 254px;
 	width: 190px;
-	border: 4px solid #074E6F;
+	border: 4px solid #000000;
 	position: absolute;
 	top: -285px;
 	left: -32px;
@@ -582,7 +584,7 @@ html.home{
 #refer .prizes p.place{
 	text-align: center;
 	font-size: 16px;
-	color: #074E6F;
+	color: #000000;
 	width: 100%;
 	font-weight: 500;
 	margin-top: 30px;
@@ -632,7 +634,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	#home .hero{
 		background: url(/assets/home/hero@2x.jpg) center center no-repeat;
-		background-size: 1600px 446px;
+		background-size: 100% 446px;
 	}
 
 	#home .form-wrap .key{
@@ -642,13 +644,17 @@ only screen and (min-device-pixel-ratio: 2) {
 
 	#refer .header .logo{
 		background: url(/assets/refer/logo@2x.png) 0 0 no-repeat;
-		background-size: 106px 19px;
+		background-size: 150px 19px;
 	}
 
 	#refer .mammoth{
-		background: url(/assets/refer/mammoth@2x.png) 0 0 no-repeat;
-		background-size: 610px 394px;
+		/*background: url(/assets/refer/mammoth@2x.png) 0 0 no-repeat;
+		background-size: 610px 394px;*/
 	}
+	
+    #refer .hero{
+	background: url(/assets/refer/mammoth@2x.png) 0 0 no-repeat;
+	background-size: 100% 394px;
 
 	#refer .share-wrap .social-links .fb{
 		background: url(/assets/refer/fb@2x.png);
