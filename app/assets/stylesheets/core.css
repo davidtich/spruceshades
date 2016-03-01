@@ -302,7 +302,7 @@ html.home{
 
 #refer .hero{
 	/*background: #F1F0EE;*/
-	background: url(/assets/refer/mammoth.png) 0 0 no-repeat;
+	background: url(/assets/refer/mammoth.jpg) 0 0 no-repeat;
 	background-size: 100% 394px;
 	height: 391px;
 	overflow: hidden;
@@ -320,15 +320,15 @@ html.home{
 
 #refer .mammoth .need{
 	color: #FFF;
-	font-size: 38px;
-	text-transform: uppercase;
+	font-size: 19px;
+
 	font-weight: bold;
-	margin: 102px 0 0 72px;
+	margin: 20px 0 0 10px;
 	display: block;
-	line-height: 56px;
+	line-height: 42px;
 	letter-spacing: 4px;
 	text-align: center;
-	width: 284px;
+	width: 600px;
 }
 
 #refer .share-wrap{
@@ -648,7 +648,7 @@ only screen and (min-device-pixel-ratio: 2) {
 	}
 
     #refer .hero{
-	background: url(/assets/refer/mammoth@2x.png) 0 0 no-repeat;
+	background: url(/assets/refer/mammoth@2x.jpg) 0 0 no-repeat;
 	background-size: 100% 394px;
 	}
 
